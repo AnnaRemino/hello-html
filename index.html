@@ -6,11 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Sample</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
-<body>
-    <h1>Hello HTML!!!</h1>
-    <img src="img/picture.png" alt="Picture">
+<body class="background">
+    <div class="container1">
+        <h1>Hello HTML!!!</h1>
+        <p>Найвідоміші котики планети:</p>
+        <ol>
+          <li>Грампі</li>
+          <img src="https://aspi.com.ua/sites/default/files/styles/2560x1600x/public/2019-05/geroyinya-legendarnogo-mema-grampi-ket-pomerla-u-vici-7-rokiv%20%281%29_0.jpg?itok=SO7A-Q90">
+          <li>Шіронеко</li>
+          <img src="https://joy-pup.com/wp-content/uploads/2019/08/Shironeko3.jpg">
+          <li>Атчум</li>
+          <img src="https://s00.yaplakal.com/pics/pics_original/1/4/9/4736941.jpg">
+          <li>Снупі</li>
+          <img src="https://funart.pro/uploads/posts/2021-08/1627833309_20-funart-pro-p-yaponskaya-poroda-koshek-snupi-zhivotnie-k-26.jpg">
+          <li>Гамільтон</li>
+          <img src="https://animalworld.com.ua/images/2014/January/Foto/Gam/Gamil_1.jpg">
+        </ol>
+        <fieldset>
+            <legend>Хто Вам більше подобається?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Собаки</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Коти</label>
+          </fieldset>
+          <fieldset>
+            <legend>Який котик Вам найбільш довподоби?</legend>
+            <input id="loving" type="checkbox" name="personality"  checked> <label for="loving">Грампі</label>
+            <input id="loving" type="checkbox" name="personality"> <label for="loving">Шіронеко</label>
+            <input id="loving" type="checkbox" name="personality"> <label for="loving">Атчум</label>
+            <input id="loving" type="checkbox" name="personality"> <label for="loving">Снупі</label>
+            <input id="loving" type="checkbox" name="personality"> <label for="loving">Гамільтон</label>
+        </fieldset>
+        <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+    </div>
+    <div>
+        <img src="https://i.yapx.cc/Grj9j.gif" alt="Picture" class="cat">
+    </div>
 </body>
 
 </html>

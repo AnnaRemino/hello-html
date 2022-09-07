@@ -1,0 +1,22 @@
+.container1 {
+    height: 100%; 
+    width: 100%;
+}
+
+.background {
+    background: url("https://oir.mobi/uploads/posts/2021-03/thumbs/1616529529_46-p-fon-odnotonnii-nezhnii-51.jpg");
+    display: flex;
+    justify-content: start;
+}
+
+.cat {
+    height: 45%;
+    width: 45%;
+    margin-left: 500px;
+    margin-top: 50%;
+}
+
+img {
+    height: 10%;
+    width: 10%;
+}
